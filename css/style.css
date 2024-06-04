@@ -1,0 +1,246 @@
+body {
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  max-width: 1400px;
+  background-color: #ededed;
+}
+.containerHeader {
+  background-image: url("/assets/images/hero-header.jpg");
+  height: 667px;
+  background-position: center;
+  margin-bottom: -25px;
+}
+header .logo {
+  width: 200px;
+  margin-top: 69px;
+  margin-left: 51px;
+}
+header h1 {
+  color: rgb(255, 209, 91);
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 66px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.searchBar .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.searchEnter {
+  width: 75%;
+  height: 72px;
+  color: #7a7a7a;
+  font-size: 20px;
+  padding-left: 25px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.loop-icon {
+  margin-left: -2%;
+  background-color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.loopYellow {
+  display: none;
+}
+.mainContainer {
+  margin-top: 30px;
+  width: 100%;
+}
+.search_container {
+  display: flex;
+  margin-left: 2%;
+  width: 70%;
+  gap: 2%;
+}
+.dropdown {
+  width: 15%;
+  margin-left: 0;
+}
+.navigation_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation_bar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  width: 20%;
+  margin-left: 4%;
+  padding: 0;
+}
+
+.btn_dropdown_ingredient,
+.btn_dropdown_appliance,
+.btn_dropdown_ustensil {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 100%;
+  background: white;
+  padding: 16px;
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 10px;
+  top: 0;
+  z-index: 100;
+}
+.arrow_up {
+  display: none;
+  z-index: 5;
+}
+.input_group {
+  background-color: white;
+  width: auto;
+  height: 36px;
+  border-radius: 2px;
+  border: 1px solid #c6c6c6;
+  margin: 10px 15px 10px 15px;
+}
+.dropdown_content_ing,
+.dropdown_content_app,
+.dropdown_content_ust,
+#ingredientList {
+  display: none;
+}
+#ingredientList {
+  height: 300px;
+  width: 90%;
+  overflow: auto;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.search {
+  border: none;
+  outline: none;
+  width: 85%;
+  height: 34px;
+  color: #7a7a7a;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 8px;
+  background: white;
+}
+.loopDropdown {
+  background-color: white;
+  margin-left: -10px;
+}
+
+.total_recipies p {
+  font-family: "Anton";
+  font-size: 21px;
+  margin: 0;
+}
+.total_recipies span {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 21px;
+  background-color: #ededed;
+}
+.recipeCard {
+  margin-top: 40px;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+  margin-left: 4%;
+}
+.cardBody {
+  width: 30%;
+  height: 731px;
+  background-color: white;
+  border-radius: 21px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 5%;
+}
+.cardBody img {
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  object-fit: cover;
+  height: 253px;
+  width: 100%;
+}
+.cardBody em {
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  background-color: rgb(255, 209, 91);
+  position: absolute;
+  border-radius: 14px;
+  padding: 4px 8px 4px 8px;
+  margin-top: 20px;
+  margin-left: -80px;
+}
+.cardBody H2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5%;
+}
+.cardBody H3 {
+  font-family: Manrope;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  color: #7a7a7a;
+  margin-left: 5%;
+}
+
+.cardBody p {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  overflow: auto;
+  height: 80px;
+  margin-right: 5%;
+}
+.cardBody H4 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  width: 50%;
+}
+.cardBody span {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7a7a7a;
+}
+.ingredientsList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ingredientsList span {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
