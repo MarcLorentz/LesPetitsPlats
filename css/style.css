@@ -127,11 +127,41 @@ header h1 {
   height: 300px;
   width: 90%;
   overflow: auto;
+}
+#ingredientList a {
+  display: block; /* Make each link display as a block element */
+  padding: 5px 0; /* Optional: Add some padding for better readability */
   font-family: Manrope;
+  text-decoration: none;
+  color: black;
   font-size: 14px;
   font-weight: 400;
 }
+#ingredientList a:hover {
+  background: #ffd15b;
+}
 
+#ingredientSelected {
+  cursor: pointer;
+  align-content: center;
+  position: relative;
+  height: 53px;
+  border-radius: 10px;
+  width: 12%;
+  background-color: #ffd15b;
+  display: none;
+  font-family: Manrope;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 4.5%;
+}
+.closeIng {
+  top: 18px;
+  right: 10px;
+  position: absolute;
+}
 .search {
   border: none;
   outline: none;
